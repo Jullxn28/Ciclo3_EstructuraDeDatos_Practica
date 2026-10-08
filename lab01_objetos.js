@@ -11,7 +11,7 @@ class CoordenadaObj {
     }
 }
 
-// Almacenamos en memoria
+// ALMACENAMOS EN MEMORIA
 let coordenadas = [];
 for (let i = 0; i < N; i++) {
     coordenadas.push(new CoordenadaObj(i * 0.1, i * -0.1));
