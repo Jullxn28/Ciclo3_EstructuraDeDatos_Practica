@@ -24,7 +24,7 @@ class ListaSatelital {
             this.cola = nuevoNodo;
             this.actual = nuevoNodo;
         } else {
-            nuevoNodo.siguiente = this.cabeza;
+            nuevoNodo.siguiente = this.cabeza;  
             this.cabeza.anterior = nuevoNodo;
             this.cabeza = nuevoNodo;
         }
