@@ -1,0 +1,12 @@
+{
+  "name": "ape_006_pila_transaccional",
+  "version": "1.0.0",
+  "main": "BenchmarkEstadistico.js",
+  "scripts": {
+    "benchmark": "node --expose-gc BenchmarkEstadistico.js",
+    "prueba": "node PruebaUndoRedo.js"
+  },
+  "description": "",
+  "keywords": [],
+  "type": "commonjs"
+}
